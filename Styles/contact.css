@@ -1,0 +1,188 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-image: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 742px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 0%;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.color{
+    color: #ffbd39;
+    border-bottom-style: double;
+}
+
+.contact{
+    background: rgba(-10, 0, -5, 0.8);
+    width: 1300px;
+    height: 610px;
+    position: absolute;
+    margin: 10px 0px 0px 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact h1{
+    margin: 17px 0px 0px 40px;
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: "Poppins", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    margin-left: 40px;
+}
+
+.contact h3{
+    margin: 18px 0px -55px 42px;
+    font-size: 38px;
+    color: white;
+    position: absolute;
+}
+
+.social{
+    width: -webkit-fill-available;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.mail, .address, .phone, .share{
+    color: white;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.share ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.share li{
+    margin-right: 10px;
+    
+}
+
+.fa-solid{
+    color: #ffbd39;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.social label{
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 17px;
+}
+
+.social p{
+    margin-left: 30px;
+    margin-top: 38px;
+}
+
+.fa-brands{
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+}
+
+.profiles ul{
+    margin-left: 25px;
+    margin-top: 9px;
+}
+
+.sendMsg{
+    width: -webkit-fill-available;
+    margin-top: 130px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+
+#text{
+    color: lightcyan;
+    height: 35px;
+    font-size: 15px;
+    width: 504px;
+    padding-left: 14px;
+    background-color: black;
+    border-color: 1px solid white;
+    border: 1px solid white;
+}
+
+#gmail{
+    color: lightcyan;
+    margin-top: 20px;
+    height: 35px;
+    font-size: 15px;
+    width: 504px;
+    padding-left: 14px;
+    background-color: black;
+    border-color: 1px solid white;
+    border: 1px solid white;
+}
+
+#subject{
+    color: lightcyan;
+    margin-top: 20px;
+    height: 35px;
+    font-size: 15px;
+    width: 504px;
+    padding-left: 14px;
+    background-color: black;
+    border-color: 1px solid white;
+    border: 1px solid white;
+}
+
+#message{
+    color: lightcyan;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 8px 14px;
+    background-color: black;
+    border-color: 1px solid white;
+    border: 1px solid white;
+}
+
+button{
+    background: #ffbd39;
+    border: 1px solid #ecc8ba;
+    color: black;
+    cursor: pointer;
+    padding: 8px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: cursive;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px white;
+}

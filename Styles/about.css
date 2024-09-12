@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 742px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-left: 120px;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.color {
+    color: #ffbd39;
+    border-bottom-style: double;
+}
+
+.about-me {
+    background: rgba(-10, 0, -5, 0.8);
+    width: 1300px;
+    height: 610px;
+    position: absolute;
+    margin: 10px 0 0 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me img {
+    height: -webkit-fill-available;
+    max-width: 100%; /* Ensures image fits within the container */
+}
+
+.detail {
+    display: flex;
+}
+
+.details {
+    margin-left: 30px;
+}
+
+.my-info {
+    color: white;
+    margin: 150px;
+    max-width: 100%; /* Ensures content doesn't overflow */
+}
+
+.my-info h1 {
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: "Poppins", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.my-info h3 {
+    margin: 0 0 -55px 42px;
+    font-size: 38px;
+}
+
+/* Responsive design for mobile and tablets */
+
+/* Tablets and smaller desktops (max-width: 768px) */
+@media (max-width: 768px) {
+    .header {
+        height: 500px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .navbar li {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-me {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 20px 0;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .my-info {
+        margin: 50px 20px;
+        text-align: center;
+    }
+
+    .my-info h1 {
+        font-size: 7vw;
+    }
+
+    .my-info h3 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .details {
+        margin-left: 0;
+    }
+
+    .about-me img {
+        width: 100%; /* Ensure the image scales properly */
+        height: auto;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        height: 400px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .navbar li {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .about-me {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .my-info {
+        margin: 20px;
+    }
+
+    .my-info h1 {
+        font-size: 8vw;
+    }
+
+    .my-info h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .details {
+        margin-left: 0;
+    }
+
+    .about-me img {
+        height: auto;
+        width: 100%;
+    }
+}

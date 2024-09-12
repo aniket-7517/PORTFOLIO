@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../Styles/project.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Views/about.html">About</a></li>
+                <li><a href="../Views/resume.html">Resume</a></li>
+                <li><a href="../Views/skills.html">Skills</a></li>
+                <li class="color">Project</li>                
+                <li><a href="../Views/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="project-detail">
+            <h3>My Projects</h3>
+            <h1>Projects</h1>
+            <button id="prev-btn"> <strong> < </strong> </button>
+
+            <div class="project" id="project-1">
+                <h2>Amazon Clone Web Application <label>| June 2024</label></h2>
+                <ul>
+                    <li>Engineered a robust, scalable e-commerce platform mirroring Amazon.in, featuring user authentication, dynamic
+                        product catalog browsing, and seamless shopping cart management.</li>
+                    <li>Implemented a secure checkout process with advanced product filtering options, ensuring a smooth user
+                        experience from browsing to order completion.</li>
+                    <li>Designed to handle large-scale user traffic with a focus on high availability and fault tolerance.</li>
+                </ul>
+                <h4>Technologies Used : React.js, Redux, Redux-thunk, Node.js, Express.js,bcryptjs, jsonwebtoken, MongoDB,
+                    Bootstrap, Material-UI.</h4>
+            </div>
+
+            <div class="project" id="project-2" style="display: none;">
+                <h2>AI-Powered Utility Suite <label>| April 2024</label></h2>
+                <ul>
+                    <li>Integrated state-of-the-art OpenAI models, including ChatGPT for conversational AI, Whisper for text-to-voice and
+                        voice-to-text conversions, and DALL·E for image generation.
+                        </li>
+                    <li>Developed a versatile utility suite with a user-friendly interface, significantly enhancing productivity and accessibility for
+                        end-users. Enabled seamless PDF-to-text extraction, making document management more efficient.
+                        </li>
+                </ul>
+                <h4>Technologies Used : React.js, Node.js, Express.js, OpenAI API (ChatGPT, DALL·E, Whisper).</h4>
+            </div> 
+
+            <div class="project" id="project-3" style="display: none;">
+                <h2>Human Resource Management System <label>| Nov 2023</label></h2>
+                <ul>
+                    <li>Developed a comprehensive web application to streamline HR processes, managing employee databases, payroll,
+                        leave requests, and interview scheduling across multiple companies.
+                        </li>
+                    <li>Focused on creating intuitive, user-friendly interfaces to enhance usability and efficiency.
+                        </li>
+                </ul>
+                <h4>Technologies Used : React.js, Redux, Node.js, Express.js, MongoDB.
+                </h4>
+            </div> 
+
+            <div class="project" id="project-4" style="display: none;">
+                <h2>Crime/Complaints Reporting Management System <label>| FEB 2023</label></h2>
+                <ul>
+                    <li>Developed a web-based solution that allows citizens to report crimes online, improving accessibility and reducing the need for in-person visits to police stations.</li>
+                    <li>Designed the system to streamline data collection and retrieval for law enforcement agencies, enabling quicker access to historical records and better decision-making for crime prevention and detection.</li>
+                    <li>Implemented features for tracking the status of complaints and cases in real-time, providing transparency and improving communication between the police and the public.</li>
+                </ul>
+                <h4>Technologies Used : PHP, MySQL.
+            </div>
+            
+            <div class="project" id="project-5" style="display: none;">
+                <h2>Student Result management system <label>| Aug 2022</label></h2>
+                <ul>
+                    <li>Designed and developed a web-based system that allows administrators to input, store, and manage student results securely, providing instant access to result data for both students and staff.</li>
+                    <li>Implemented dynamic report generation features that allow educators to create custom reports, analyze student performance, and identify trends across various subjects and semesters.</li>
+                    <li>Integrated role-based access controls to ensure the security and privacy of student data, enabling secure login for administrators, teachers, and students.</li>
+                </ul>
+                <h4>Technologies Used : PHP, MySQL.
+            </div>
+            <button id="next-btn"><strong> > </strong></button> 
+        </div>
+
+        <script src="https://kit.fontawesome.com/f791b44e09.js" crossorigin="anonymous"></script>    
+        <script src="../Scripts/project-navigation.js"></script> <!-- Link to JS file -->  
+</body>
+</html>
